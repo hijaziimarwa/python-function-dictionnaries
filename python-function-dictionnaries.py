@@ -13,3 +13,6 @@ expenses = {
     'rent': calculate_expense(salary, rent_percentage),
     'electricity': calculate_expense(salary, electricity_percentage)
 }
+
+total_expenses = expenses['saving'] + expenses['rent'] + expenses['electricity']
+salary_remaining = salary - total_expenses
