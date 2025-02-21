@@ -16,3 +16,6 @@ expenses = {
 
 total_expenses = expenses['saving'] + expenses['rent'] + expenses['electricity']
 salary_remaining = salary - total_expenses
+
+yearly_rent = expenses['rent'] * 12
+yearly_electricity = expenses['electricity'] * 12
