@@ -19,3 +19,7 @@ salary_remaining = salary - total_expenses
 
 yearly_rent = expenses['rent'] * 12
 yearly_electricity = expenses['electricity'] * 12
+
+additional_saving = 50
+left_saving = additional_saving / expenses['saving']
+
